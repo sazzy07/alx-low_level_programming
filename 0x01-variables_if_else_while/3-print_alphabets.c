@@ -3,21 +3,22 @@
  * main - Start point
  * Return: 0
  */
+int main(void)
 {
 	char x;
-	char y;
+	char X;
 
 	x = 'a';
-	y = 'A';
+	X = 'A';
 	while
 		(x <= 'z') {
 			putchar(x);
 			x++;
 		}
 	while
-		(y <= 'Z') {
-			putchar(y);
-			y++;
+		(X <= 'Z') {
+			putchar(X);
+			X++;
 		}
 	putchar('\n');
 	return (0);
