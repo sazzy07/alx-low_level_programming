@@ -14,12 +14,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	c = n % 100;
-	if (c > 20)
-		printf("Last digit of %d is %d and is greater than 20\n", n, c);
+	c = n % 10;
+	if (c > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, c);
 	if (c == 0)
 		printf("Last digit of %d is %d and is 0\n", n, c);
-	if (c < 25 && c != 0)
-		printf("Last digit of %d is %d and is less than 25 and not 0\n", n,c);
+	if (c < 6 && c != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n,c);
 	return (0);
 }
