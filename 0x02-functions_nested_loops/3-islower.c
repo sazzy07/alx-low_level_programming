@@ -5,9 +5,9 @@
  * @c:character to check if it islowercase
  * Return: 1-if lowercase, 0-if not
  */
-int _islower(int x)
+int _islower(int c)
 {
-	if (x >= 'a' && x <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
